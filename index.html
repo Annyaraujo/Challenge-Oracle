@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Dark Side!</title>
+		
+		<link rel="stylesheet"href="reset.css">
+		<link rel="stylesheet"href="style.css">
+		<link href= 'https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap' rel="stylesheet">
+		<link rel="icon" type="image/jpg" href="icon.jpg">
+		
+	</head>
+        
+		<body> 
+		
+			<div>
+				<audio class="audio" src="theme.mp3" preload="auto" controls></audio>
+	
+			</div>
+
+			<div class="stars"></div>
+		<main class="main.container">
+			<header class="cabeçalho" >
+				<img src="dark.PNG" alt="logo">
+				<h1>Try not. Do… or do not. There is no try.</h1>
+			</header>
+			<div class="container-input">
+				<div class="input">
+					<textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>		
+					<p class="aviso">⚠️ Apenas letras minúsculas e sem acento.</p>
+				</div>
+				<div id="output">
+					<img src="darth.jpg" alt="imagem" >
+					<h2>Sua mensagem irá aparecer aqui!</h2>
+					<span >Digite o texto que deseja codificar ou descodificar</span>
+				</div>
+			</div>
+			<div class="botoes">
+				<div class="container-btn">
+					<button onclick="criptografar ()" class="btn-cript">Criptografar</button>
+					<button onclick="descriptografar ()" class="btn-descript">Descriptografar</button>
+					
+				</div>
+		<footer class="rodape">
+			<div>
+				<img class="gif" src="gif.gif" width="180" height="180" frameBorder="0"></img>
+				<p>© Copyright Stephane Araujo</p>
+		</footer>
+
+			</div>
+		</main>
+
+
+<script src = "interacao.js"></script>
+
+	
+
+	
+
+	
+	</body>
+
+
+</html>
